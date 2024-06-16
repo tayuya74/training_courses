@@ -1,0 +1,29 @@
+{
+  "name": "nodejs_basics",
+  "version": "0.0.1",
+  "description": "this is node js basics course",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon script.js",
+    "prod": "node script.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "js",
+    "javascript"
+  ],
+  "author": "Tayuya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "save": "^2.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
